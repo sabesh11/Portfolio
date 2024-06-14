@@ -10,20 +10,25 @@
     letter-spacing: 1px;
 }
 header{
-    background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
+  background-image: linear-gradient( 179.7deg,  rgba(249,21,215,1) 1.1%, rgba(22,0,98,1) 99% );
     /* background-image: linear-gradient( 100.2deg,  rgba(255,53,53,1) 49.4%, rgba(0,0,0,1) 129.8% ); */
     width: 270px;
     height: 100vh;
     position: fixed;
-    overflow-y: scroll;
+    overflow-y: hidden;
     overflow-x: hidden;
+    color: white;
 }
 .icons{
     padding: 10px;
     text-align: center;
+    
 }
+
+
 svg{
     margin: 10px;
+   
 }
 .home{
     /* position:absolute; */
@@ -56,7 +61,7 @@ svg{
     outline: none;
   }
   .btn-1 {
-    background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,15,2,1) 100%);
+    background-image: linear-gradient( 179.7deg,  rgba(249,21,215,1) 1.1%, rgba(22,0,98,1) 99% );
       line-height: 42px;
       padding: 0;
       border: none;
@@ -73,7 +78,7 @@ svg{
       content: "";
       right: 0;
       bottom: 0;
-      background: rgba(251,75,2,1);
+      background: rgba(22,0,98,1);
       box-shadow:
        -7px -7px 20px 0px rgba(255,255,255,.9),
        -4px -4px 5px 0px rgba(255,255,255,.9),
@@ -90,7 +95,7 @@ svg{
       height: 2px;
     }
     .btn-1:hover{
-      color: rgba(251,75,2,1);
+      color: rgba(22,0,98,1);
       background: transparent;
     }
     .btn-1:hover:before {
@@ -105,7 +110,7 @@ svg{
       content: "";
       left: 0;
       top: 0;
-      background: rgba(251,75,2,1);
+      background: rgba(22,0,98,1);
       box-shadow:
        -7px -7px 20px 0px rgba(255,255,255,.9),
        -4px -4px 5px 0px rgba(255,255,255,.9),
@@ -133,7 +138,7 @@ svg{
         font-size: large;
     }
     .ll{
-        color: rgba(251,75,2,1);
+        color: rgba(22,0,98,1);
     }
     .card-bdy{
       position: relative;
@@ -147,7 +152,7 @@ svg{
       transition: .5s;
   }
   .card-hd{
-      background-image: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,15,2,1) 100%);
+    background-image: linear-gradient( 179.7deg,  rgba(249,21,215,1) 1.1%, rgba(22,0,98,1) 99% );
   }
   .ii{
     color: black;
@@ -176,7 +181,7 @@ svg{
 
   .line span{
     height: 100%;
-    background-color: rgba(255,151,0,1);
+    background-color: rgba(249,21,215,1);
     position: absolute;
     border-radius: 10px;
     animation: animate 1s ease-in forwards;
@@ -295,7 +300,7 @@ svg{
   
   .timeline-content {
     padding: 20px;
-    background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,15,2,1) 100%);
+    background-image: linear-gradient( 179.7deg,  rgba(249,21,215,1) 1.1%, rgba(22,0,98,1) 99% );
     /*  */
     border-radius: 5px;
     color: white;
@@ -318,7 +323,7 @@ svg{
     }
     .timeline-middle {
       position: relative;
-      background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+      background-image:  linear-gradient( 179.7deg,  rgba(249,21,215,1) 1.1%, rgba(22,0,98,1) 99% );
       width: 3px;
       height: 100%;
     }
@@ -332,7 +337,7 @@ svg{
       width: 15px;
       height: 15px;
       border-radius: 50%;
-      background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+      background-image:  linear-gradient( 179.7deg,  rgba(249,21,215,1) 1.1%, rgba(22,0,98,1) 99% );
       -webkit-transform: translateX(-50%);
               transform: translateX(-50%);
     }
@@ -348,7 +353,7 @@ svg{
   width: 100%;
   overflow: hidden;
   transition: all .2s ease-in-out;
-  background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,15,2,1) 100%);
+  background-image: linear-gradient( 179.7deg,  rgba(249,21,215,1) 1.1%, rgba(22,0,98,1) 99% );
   border-color: none !important;
 }
 
@@ -389,11 +394,11 @@ svg{
 }
 
 #contact .ii:hover{
-  color: #F27121;
+ color:rgba(22,0,98,1)
   
 }
 .iconclr{
-  color: #F27121;
+  color:rgba(22,0,98,1)
 }
 textarea::placeholder{
   color: #000000 !important;
