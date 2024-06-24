@@ -404,3 +404,29 @@ textarea::placeholder{
   color: #000000 !important;
   letter-spacing: 1px !important;
 }
+
+.waviy{
+  color: #000000  ;
+}
+.waviy {
+   position: relative;
+ 
+ }
+ .waviy span {
+  
+   position: relative;
+   display: inline-block;
+   font-size: larger;
+   /* text-transform: uppercase; */
+   animation: waviy 1s 2;
+   animation-delay: calc(.1s * var(--i));
+   
+ }
+ @keyframes waviy {
+   0%,40%,100% {
+     transform: translateY(0);
+   }
+   20% {
+     transform: translateY(-20px);
+   }
+ }
