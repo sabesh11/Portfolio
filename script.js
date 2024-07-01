@@ -9,4 +9,5 @@ function sendData() {
         Email: Email,
         Meassage: Meassage
     }
+    console.log(data);
 }
