@@ -233,6 +233,10 @@ svg {
   width: 80%;
 }
 
+.line.node span {
+  width: 78%;
+}
+
 .line.java span {
   width: 80%;
 }
@@ -273,6 +277,11 @@ svg {
 .line.react span::after {
   content: "80%";
 }
+
+.line.node span::after {
+  content: "78%";
+}
+
 
 .line.java span::after {
   content: "80%";
