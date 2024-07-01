@@ -366,7 +366,7 @@ svg {
 
 #contact {
   position: relative;
-  }
+}
 
 .send-button {
   margin-top: 15px;
@@ -458,6 +458,6 @@ textarea::placeholder {
   }
 }
 
-svg:hover{
-  fill:  rgba(249, 21, 215, 1);
+svg:hover {
+  fill: rgba(249, 21, 215, 1);
 }
